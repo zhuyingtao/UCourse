@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="doc_course">
+        <item>算法导论</item>
+        <item>离散数学</item>
+        <item>手机应用</item>
+        <item>软件工程</item>
+    </string-array>
+
+</resources>

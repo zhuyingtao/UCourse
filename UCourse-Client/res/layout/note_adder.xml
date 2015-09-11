@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ecf0f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/titlebarbackground"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加笔记"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:maxLines="10"
+            android:singleLine="false" 
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/resetbtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/reset" />
+
+        <Button
+            android:id="@+id/submitbtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/submit" />
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/classNote1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入笔记内容"
+        android:minLines="8"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textColor="#4D4D4D"
+        
+        android:textColorHint="#8B8B83" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

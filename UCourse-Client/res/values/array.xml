@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="sa">
+<item>sa1</item>
+<item>sa2</item>
+</string-array>
+<integer-array name="ia">
+<item>101</item>
+<item>102</item>
+</integer-array>
+</resources>

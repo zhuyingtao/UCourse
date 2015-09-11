@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#ecf0f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlnote"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/titlebarbackground"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvnote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="笔记详情"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+         <Button
+            android:id="@+id/deletebtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/buttonbackground"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/editbtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/buttonbackground"
+            android:text="编辑" />
+    </RelativeLayout>
+    <Spinner
+        android:id="@+id/spinnerclassName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/etnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:minLines="5"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textColor="#8F8F8F"
+        android:focusable="false" 
+        android:textColorHint="#8B8B83" >
+
+       
+    </EditText>
+
+   
+</LinearLayout>

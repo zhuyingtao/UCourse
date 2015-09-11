@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_slide2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/noteallbtn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:src="@drawable/setb"
+            android:text="所有笔记" />
+
+        <ListView
+            android:id="@+id/slidelistView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+        	android:dividerHeight="0.5dp" 
+            android:paddingTop="20dp" >
+
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>
