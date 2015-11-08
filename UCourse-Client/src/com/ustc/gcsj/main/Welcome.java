@@ -7,12 +7,12 @@ import android.os.Bundle;
 
 public class Welcome extends Activity {
 
-	protected void onCreate(Bundle savedInstanceState) {
-		// super.onCreate(savedInstanceState);
-		// setContentView(R.layout.welcome);
-		// new_world = (Button)this.findViewById(R.id.new_world);
-		// Intent intent = new Intent(this,MainFrag.class);
-		// startActivity(intent);
-		// finish();
-	}
+    protected void onCreate(Bundle savedInstanceState) {
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.welcome);
+        // new_world = (Button)this.findViewById(R.id.new_world);
+        // Intent intent = new Intent(this,MainFrag.class);
+        // startActivity(intent);
+        // finish();
+    }
 }
