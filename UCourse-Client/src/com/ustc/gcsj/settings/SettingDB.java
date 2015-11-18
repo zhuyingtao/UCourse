@@ -67,5 +67,4 @@ public class SettingDB extends BaseDB {
         cv.put(SETTING_EXAM_SWITCH, examswitch);
         db.update(TABLE_NAME, cv, where, null);
     }
-
 }

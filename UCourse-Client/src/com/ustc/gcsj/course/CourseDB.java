@@ -1,13 +1,13 @@
 package com.ustc.gcsj.course;
 
-import com.ustc.gcsj.main.BaseDB;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
+
+import com.ustc.gcsj.main.BaseDB;
 
 public class CourseDB extends BaseDB {
 

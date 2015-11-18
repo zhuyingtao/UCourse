@@ -89,7 +89,6 @@ public class ExamList extends Fragment {
     public void setListItem() {
 
         lv.setOnItemClickListener(new OnItemClickListener() {
-
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
@@ -142,7 +141,6 @@ public class ExamList extends Fragment {
     public ArrayList<Map<String, Object>> getList() {
 
         ArrayList<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
-
         Cursor cursor = db.getData();
         if (cursor == null)
             return null;

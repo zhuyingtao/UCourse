@@ -30,7 +30,6 @@ public class MainFrag extends SlidingFragmentActivity {
 
     public SlideControl getSlideControl() {
         return slidecontrol;
-
     }
 
     /**
@@ -74,5 +73,4 @@ public class MainFrag extends SlidingFragmentActivity {
             SlideLeft.toggle = 0;
         }
     }
-
 }

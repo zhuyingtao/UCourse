@@ -115,7 +115,7 @@ public class AddNote extends Activity {
         String nclassname = nclass;
         String notedetail = addText.getText().toString();
         SimpleDateFormat formatter = new SimpleDateFormat(
-                "yyyy年MM月dd日   HH:mm:ss");
+                "yyyy年MM月dd日    HH:mm:ss");
         Date curDate = new Date(System.currentTimeMillis());// 获取当前时间
         String notedate = formatter.format(curDate);
         if (notedetail.equals("") || nclassname.equals("")) {

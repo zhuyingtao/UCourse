@@ -196,7 +196,6 @@ public class Setting extends Fragment {
 
     private void getData() {
         // TODO Auto-generated method stub
-
         setting_current_week = sharedPreferences.getInt("setting_current_week",
                 0);
         setting_exam_switch = sharedPreferences.getBoolean(
@@ -210,7 +209,6 @@ public class Setting extends Fragment {
     }
 
     class SpinnerSelectedListener1 implements OnItemSelectedListener {
-
         @Override
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
                                    long arg3) {
@@ -223,9 +221,7 @@ public class Setting extends Fragment {
         @Override
         public void onNothingSelected(AdapterView<?> arg0) {
             // TODO Auto-generated method stub
-
         }
-
     }
 
     class SpinnerSelectedListener2 implements OnItemSelectedListener {
@@ -240,9 +236,6 @@ public class Setting extends Fragment {
         @Override
         public void onNothingSelected(AdapterView<?> arg0) {
             // TODO Auto-generated method stub
-
         }
-
     }
-
 }
